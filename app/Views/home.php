@@ -62,18 +62,18 @@
           <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
           <li><a class="nav-link scrollto" href="#about">Tentang</a></li>
           <li><a class="nav-link scrollto" href="#services">Keropak</a></li>
-          <!-- <li><a class="nav-link scrollto " href="#portfolio">Kegiatan Masjid</a></li> -->
+          <!-- <li><a class="nav-link scrollto " href="#kegiatan">Kegiatan Masjid</a></li> -->
           <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-          <li class="dropdown"><a href="#portfolio"><span>Kegiatan Masjid</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#kegiatan"><span>Kegiatan Masjid</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#portfolio">Galeri Kegiatan</a></li>
+              <li><a href="#kegiatan">Galeri Kegiatan</a></li>
               <li class="dropdown"><a href="#"><span>Peringatan Hari Besar Islam</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Hari Raya Idul Fitri</a></li>
-                  <li><a href="#">Hari Raya Idul Adha</a></li>
-                  <li><a href="#">Tahun Baru Islam</a></li>
-                  <li><a href="#">Maulid Nabi Muhammad SAW</a></li>
-                  <li><a href="#">Isra Mi'raj</a></li>
+                  <li><a href="#idulfitri">Hari Raya Idul Fitri</a></li>
+                  <li><a href="#iduladha">Hari Raya Idul Adha</a></li>
+                  <li><a href="#thi">Tahun Baru Islam</a></li>
+                  <li><a href="#maulid">Maulid Nabi Muhammad SAW</a></li>
+                  <li><a href="#isra">Isra Mi'raj</a></li>
                 </ul>
               </li>
               <li><a href="#">Jadwal Imam Harian</a></li>
@@ -499,8 +499,8 @@
       </div>
     </section><!-- End Testimonials Section -->
 
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <!-- ======= kegiatan Section ======= -->
+    <section id="kegiatan" class="kegiatan">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -511,113 +511,113 @@
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
+            <ul id="kegiatan-flters">
               <li data-filter="*" class="filter-active">Semua</li>
-              <li data-filter=".filter-app">Idul Fitri</li>
-              <li data-filter=".filter-card">Idul Adha</li>
-              <li data-filter=".filter-web">Tahun Baru Islam</li>
-              <li data-filter=".filter-web">Maulid Nabi Muhammad SAW</li>
-              <li data-filter=".filter-web">Isra Mi'raj</li>
+              <li data-filter=".filter-app" id="idulfitri">Idul Fitri</li>
+              <li data-filter=".filter-card" id="iduladha">Idul Adha</li>
+              <li data-filter=".filter-web" id="thi">Tahun Baru Islam</li>
+              <li data-filter=".filter-web" id="maulid">Maulid Nabi Muhammad SAW</li>
+              <li data-filter=".filter-web" id="isra">Isra Mi'raj</li>
             </ul>
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <div class="row kegiatan-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-app">
+            <img src="assets/img/kegiatan/kegiatan-1.jpg" class="img-fluid" alt="">
+            <div class="kegiatan-info">
               <h4>App 1</h4>
               <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="assets/img/kegiatan/kegiatan-1.jpg" data-gallery="kegiatanGallery" class="kegiatan-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="kegiatan-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-web">
+            <img src="assets/img/kegiatan/kegiatan-2.jpg" class="img-fluid" alt="">
+            <div class="kegiatan-info">
               <h4>Web 3</h4>
               <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="assets/img/kegiatan/kegiatan-2.jpg" data-gallery="kegiatanGallery" class="kegiatan-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="kegiatan-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-app">
+            <img src="assets/img/kegiatan/kegiatan-3.jpg" class="img-fluid" alt="">
+            <div class="kegiatan-info">
               <h4>App 2</h4>
               <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="assets/img/kegiatan/kegiatan-3.jpg" data-gallery="kegiatanGallery" class="kegiatan-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="kegiatan-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-card">
+            <img src="assets/img/kegiatan/kegiatan-4.jpg" class="img-fluid" alt="">
+            <div class="kegiatan-info">
               <h4>Card 2</h4>
               <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="assets/img/kegiatan/kegiatan-4.jpg" data-gallery="kegiatanGallery" class="kegiatan-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="kegiatan-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-web">
+            <img src="assets/img/kegiatan/kegiatan-5.jpg" class="img-fluid" alt="">
+            <div class="kegiatan-info">
               <h4>Web 2</h4>
               <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="assets/img/kegiatan/kegiatan-5.jpg" data-gallery="kegiatanGallery" class="kegiatan-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="kegiatan-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-app">
+            <img src="assets/img/kegiatan/kegiatan-6.jpg" class="img-fluid" alt="">
+            <div class="kegiatan-info">
               <h4>App 3</h4>
               <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="assets/img/kegiatan/kegiatan-6.jpg" data-gallery="kegiatanGallery" class="kegiatan-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="kegiatan-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-card">
+            <img src="assets/img/kegiatan/kegiatan-7.jpg" class="img-fluid" alt="">
+            <div class="kegiatan-info">
               <h4>Card 1</h4>
               <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="assets/img/kegiatan/kegiatan-7.jpg" data-gallery="kegiatanGallery" class="kegiatan-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="kegiatan-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-card">
+            <img src="assets/img/kegiatan/kegiatan-8.jpg" class="img-fluid" alt="">
+            <div class="kegiatan-info">
               <h4>Card 3</h4>
               <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="assets/img/kegiatan/kegiatan-8.jpg" data-gallery="kegiatanGallery" class="kegiatan-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="kegiatan-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
+          <div class="col-lg-4 col-md-6 kegiatan-item filter-web">
+            <img src="assets/img/kegiatan/kegiatan-9.jpg" class="img-fluid" alt="">
+            <div class="kegiatan-info">
               <h4>Web 3</h4>
               <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <a href="assets/img/kegiatan/kegiatan-9.jpg" data-gallery="kegiatanGallery" class="kegiatan-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="kegiatan-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
 
         </div>
 
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End kegiatan Section -->
 
     <!-- ======= Team Section ======= -->
     <!-- <section id="team" class="team section-bg">

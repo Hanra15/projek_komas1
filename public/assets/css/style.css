@@ -923,9 +923,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# kegiatan
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+.kegiatan #kegiatan-flters {
   padding: 0;
   margin: 0 auto 15px auto;
   list-style: none;
@@ -933,7 +933,7 @@ section {
   border-radius: 50px;
   padding: 2px 15px;
 }
-.portfolio #portfolio-flters li {
+.kegiatan #kegiatan-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -945,16 +945,16 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.kegiatan #kegiatan-flters li:hover, .kegiatan #kegiatan-flters li.filter-active {
   color: #0a8819;
 }
-.portfolio #portfolio-flters li:last-child {
+.kegiatan #kegiatan-flters li:last-child {
   margin-right: 0;
 }
-.portfolio .portfolio-item {
+.kegiatan .kegiatan-item {
   margin-bottom: 30px;
 }
-.portfolio .portfolio-item .portfolio-info {
+.kegiatan .kegiatan-item .kegiatan-info {
   opacity: 0;
   position: absolute;
   left: 30px;
@@ -965,31 +965,31 @@ section {
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
 }
-.portfolio .portfolio-item .portfolio-info h4 {
+.kegiatan .kegiatan-item .kegiatan-info h4 {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
   color: #222222;
 }
-.portfolio .portfolio-item .portfolio-info p {
+.kegiatan .kegiatan-item .kegiatan-info p {
   color: #555555;
   font-size: 14px;
   margin-bottom: 0;
 }
-.portfolio .portfolio-item .portfolio-info .preview-link, .portfolio .portfolio-item .portfolio-info .details-link {
+.kegiatan .kegiatan-item .kegiatan-info .preview-link, .kegiatan .kegiatan-item .kegiatan-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
   color: #3c3c3c;
 }
-.portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
+.kegiatan .kegiatan-item .kegiatan-info .preview-link:hover, .kegiatan .kegiatan-item .kegiatan-info .details-link:hover {
   color: #0a8819;
 }
-.portfolio .portfolio-item .portfolio-info .details-link {
+.kegiatan .kegiatan-item .kegiatan-info .details-link {
   right: 10px;
 }
-.portfolio .portfolio-item .portfolio-links {
+.kegiatan .kegiatan-item .kegiatan-links {
   opacity: 0;
   left: 0;
   right: 0;
@@ -998,72 +998,72 @@ section {
   position: absolute;
   transition: all ease-in-out 0.3s;
 }
-.portfolio .portfolio-item .portfolio-links a {
+.kegiatan .kegiatan-item .kegiatan-links a {
   color: #fff;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
 }
-.portfolio .portfolio-item .portfolio-links a:hover {
+.kegiatan .kegiatan-item .kegiatan-links a:hover {
   color: #6ba7f5;
 }
-.portfolio .portfolio-item:hover .portfolio-info {
+.kegiatan .kegiatan-item:hover .kegiatan-info {
   opacity: 1;
   bottom: 20px;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# kegiatan Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.kegiatan-details {
   padding-top: 40px;
 }
-.portfolio-details .portfolio-details-slider img {
+.kegiatan-details .kegiatan-details-slider img {
   width: 100%;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.kegiatan-details .kegiatan-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.kegiatan-details .kegiatan-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #0a8819;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.kegiatan-details .kegiatan-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #0a8819;
 }
-.portfolio-details .portfolio-info {
+.kegiatan-details .kegiatan-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(34, 34, 34, 0.08);
 }
-.portfolio-details .portfolio-info h3 {
+.kegiatan-details .kegiatan-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
-.portfolio-details .portfolio-info ul {
+.kegiatan-details .kegiatan-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
-.portfolio-details .portfolio-info ul li + li {
+.kegiatan-details .kegiatan-info ul li + li {
   margin-top: 10px;
 }
-.portfolio-details .portfolio-description {
+.kegiatan-details .kegiatan-description {
   padding-top: 30px;
 }
-.portfolio-details .portfolio-description h2 {
+.kegiatan-details .kegiatan-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-.portfolio-details .portfolio-description p {
+.kegiatan-details .kegiatan-description p {
   padding: 0;
 }
 
