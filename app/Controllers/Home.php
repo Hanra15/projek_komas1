@@ -9,17 +9,16 @@ class Home extends BaseController
         $date = date("Y-m-d");
         $file = file_get_contents("https://api.pray.zone/v2/times/"
         ."day.json?city=bogor&date=$date");
-        $data_waktu = json_decode($file, true);
+        $data_waktu = json_encode($file, true);
 
         return view('home');
-    }
-    public function jadwalsholat()
-    {
-        $date = date("Y-m-d");
-        $file = file_get_contents("https://api.pray.zone/v2/times/today.json?city=bogor");
-        $data_waktu = json_decode($file, true);
+    } 
+    // function jadwalsholat(){
+    //      $date = date("Y-m-d");
+    //      $file = file_get_contents("https://api.pray.zone/v2/times/today.json?city=bogor");
+    //      $data_waktu = json_encode($file, true);
 
-        return $data_waktu;
-    }
+    //      return $data_waktu;
+    // }
 
 }

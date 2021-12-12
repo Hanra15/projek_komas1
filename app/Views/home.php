@@ -91,11 +91,18 @@
   </header><!-- End Header -->
  
   <div class="waktusholat">
+    <marquee behavior="" direction="">test</marquee>
     <?php
-      // foreach($data_waktu ['result']['datetime'][0]['times'] as $nama){
-      //   var_dump($jadwal);
+      // $date = date("Y-m-d");
+      // $file = file_get_contents("https://api.pray.zone/v2/times/today.json?city=bogor&date=".$date);
+      // $data_waktu = json_decode($file,true);
+      // var_dump($data_waktu);
+      // foreach($data_waktu['result'] as $nama){
+      // var_dump($nama);
+      // $test[] = $nama;
+
       // } 
-       
+      // var_dump($test);
     ?>
   </div>
 
@@ -106,8 +113,8 @@
         
       </div>
       <h1>Selamat <span>Datang</span></h1>
-      <h2>Dari Abu Hurairah Radhiyallahu'anhu, ia berkata, “Rasûlullâh Shallallahu ‘alaihi wa sallam bersabda:
-        Yang artinya : Sholat seorang laki-laki dengan berjama’ah akan dilipat-gandakan 25 (dua puluh lima) kali lipat daripada sholat yang dilakukan di rumah dan di pasarnya"</h2>
+      <h2>Dari Abu Hurairah Radhiyallahu'anhu, ia berkata, “Rasûlullâh Shallallahu 'alaihi wa sallam bersabda:
+        Yang artinya : Sholat seorang laki-laki dengan berjama'ah akan dilipat-gandakan 25 (dua puluh lima) kali lipat daripada sholat yang dilakukan di rumah dan di pasarnya"</h2>
       <div class="d-flex">
         <a href="#about" class="btn-get-started scrollto">Info Masjid</a>
         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
@@ -456,7 +463,7 @@
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                   HR. Abu Daud no. 426. Syaikh Al Albani mengatakan bahwa hadits ini shahih :
                   <br>
-                  Dari Ummu Farwah, ia berkata, “Rasulullah shallallahu ‘alaihi wa sallam pernah ditanya, amalan apakah yang paling afdhol. Beliau pun menjawab, “Shalat di awal waktunya.” 
+                  Dari Ummu Farwah, ia berkata, “Rasulullah shallallahu 'alaihi wa sallam pernah ditanya, amalan apakah yang paling afdhol. Beliau pun menjawab, “Shalat di awal waktunya.” 
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -484,9 +491,9 @@
                 <h4>Masjid Al-Huda Cibinong</h4>
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Muttafaqun ‘alaih, Lu’lu wal Marjan, yang disepakati oleh Bukhari dan Muslim 1/131 no. 387, Abu Hurairah, Nabi Shallallahu ‘alaihi wa sallam bersabda :
+                  Muttafaqun 'alaih, Lu'lu wal Marjan, yang disepakati oleh Bukhari dan Muslim 1/131 no. 387, Abu Hurairah, Nabi Shallallahu 'alaihi wa sallam bersabda :
                   <br>
-                  Shalat seseorang (di masjid dengan berjama’ah) itu dilebihkan dengan 25 derajat dari shalat yang dikerjakan di rumah dan di pasar, sesungguhnya salah seorang di antara kalian jika berwudlu kemudian menyempurnakannya lalu mendatangi masjid, tak ada keinginan yang lain kecuali untuk shalat, maka tidaklah ia melangkah dengan satu langkah pun kecuali Allah mengangkatnya satu derajat, dan terhapus darinya satu kesalahan hingga ia masuk masjid …
+                  Shalat seseorang (di masjid dengan berjama'ah) itu dilebihkan dengan 25 derajat dari shalat yang dikerjakan di rumah dan di pasar, sesungguhnya salah seorang di antara kalian jika berwudlu kemudian menyempurnakannya lalu mendatangi masjid, tak ada keinginan yang lain kecuali untuk shalat, maka tidaklah ia melangkah dengan satu langkah pun kecuali Allah mengangkatnya satu derajat, dan terhapus darinya satu kesalahan hingga ia masuk masjid …
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
               </div>
@@ -506,7 +513,7 @@
         <div class="section-title">
           <h2>Galeri Masjid</h2>
           <h3>Kegiatan <span>Masjid</span></h3>
-          <p>Kegiatan Masjid Al-huda Cibinong meliputi kegiatan peringatan hari besar islam, Sholat Jum'at berjama’ah, dan pelaksanaan sholat 5 waktu setiap hari nya.</p>
+          <p>Kegiatan Masjid Al-huda Cibinong meliputi kegiatan peringatan hari besar islam, Sholat Jum'at berjama'ah, dan pelaksanaan sholat 5 waktu setiap hari nya.</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -902,7 +909,7 @@
             <div class="info-box  mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Contact Person</h3>
-              <p>+62 8123 4567 8910</p>
+              <p>+62 8123 4567 9810</p>
             </div>
           </div>
 
