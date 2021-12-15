@@ -10,8 +10,9 @@ class Home extends BaseController
         $file = file_get_contents("https://api.pray.zone/v2/times/"
         ."day.json?city=bogor&date=$date");
         $data_waktu = json_encode($file, true);
+        $data_solat = array('datalist' => $data_waktu );
 
-        return view('home');
+        return $this->load->view('home', $data_solat);
     } 
     // function jadwalsholat(){
     //      $date = date("Y-m-d");
