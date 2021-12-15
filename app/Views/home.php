@@ -91,19 +91,14 @@
   </header><!-- End Header -->
  
   <div class="waktusholat">
-    <marquee behavior="" direction="">test</marquee>
-    <?php
-      // $date = date("Y-m-d");
-      // $file = file_get_contents("https://api.pray.zone/v2/times/today.json?city=bogor&date=".$date);
-      // $data_waktu = json_decode($file,true);
-      // var_dump($data_waktu);
-      // foreach($data_waktu['result'] as $nama){
-      // var_dump($nama);
-      // $test[] = $nama;
-
-      // } 
-      // var_dump($test);
-    ?>
+    <marquee behavior="" direction="">
+      waktu subuh <?php echo $datalist['subuh']; ?> 
+      waktu dhuha <?php echo $datalist['dhuha']; ?>
+      waktu dzuhur <?php echo $datalist['dzuhur']; ?>
+      waktu ashar <?php echo $datalist['ashar']; ?>
+      waktu maghrib <?php echo $datalist['maghrib']; ?>
+      waktu isya <?php echo $datalist['isya']; ?>
+    </marquee>
   </div>
 
   <!-- ======= Hero Section ======= -->
