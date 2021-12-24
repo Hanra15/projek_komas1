@@ -88,7 +88,6 @@
     </div>
   </header><!-- End Header -->
  
-<<<<<<< HEAD
   <!-- waktu sholat -->
   <div class="table-responsive-sm waktusholat">
     <table class="table table-bordered">
@@ -113,17 +112,6 @@
         </tr>
       </tbody>
     </table>
-=======
-  <div class="waktusholat">
-    <marquee behavior="" direction="">
-      waktu subuh <?php echo $datalist['subuh']; ?> 
-      waktu dhuha <?php echo $datalist['dhuha']; ?>
-      waktu dzuhur <?php echo $datalist['dzuhur']; ?>
-      waktu ashar <?php echo $datalist['ashar']; ?>
-      waktu maghrib <?php echo $datalist['maghrib']; ?>
-      waktu isya <?php echo $datalist['isya']; ?>
-    </marquee>
->>>>>>> 21e2875860bdc393ae334326152d55e77d95fda3
   </div>
   <!-- end waktu sholat -->
   <!-- ======= Hero Section ======= -->
