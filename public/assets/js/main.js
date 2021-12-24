@@ -197,9 +197,9 @@
   }
 
   /**
-   * Testimonials slider
+   * quotes slider
    */
-  new Swiper('.testimonials-slider', {
+  new Swiper('.quotes-slider', {
     speed: 600,
     loop: true,
     autoplay: {
@@ -218,25 +218,25 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let kegiatanContainer = select('.kegiatan-container');
-    if (kegiatanContainer) {
-      let kegiatanIsotope = new Isotope(kegiatanContainer, {
-        itemSelector: '.kegiatan-item'
+    let galeriContainer = select('.galeri-container');
+    if (galeri) {
+      let galeriIsotope = new Isotope(galeriContainer, {
+        itemSelector: '.galeri-item'
       });
 
-      let kegiatanFilters = select('#kegiatan-flters li', true);
+      let galeriFilters = select('#galeri-flters li', true);
 
-      on('click', '#kegiatan-flters li', function(e) {
+      on('click', '#galeri-flters li', function(e) {
         e.preventDefault();
-        kegiatanFilters.forEach(function(el) {
+        galeriFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        kegiatanIsotope.arrange({
+        galeriIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        kegiatanIsotope.on('arrangeComplete', function() {
+        galeriIsotope.on('arrangeComplete', function() {
           AOS.refresh()
         });
       }, true);
@@ -245,16 +245,16 @@
   });
 
   /**
-   * Initiate kegiatan lightbox 
+   * Initiate galeri lightbox 
    */
-  const kegiatanLightbox = GLightbox({
-    selector: '.kegiatan-lightbox'
+  const galeriLightbox = GLightbox({
+    selector: '.galeri-lightbox'
   });
 
   /**
-   * kegiatan details slider
+   * galeri details slider
    */
-  new Swiper('.kegiatan-details-slider', {
+  new Swiper('.galeri-details-slider', {
     speed: 400,
     loop: true,
     autoplay: {

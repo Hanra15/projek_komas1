@@ -495,6 +495,18 @@ h1, h2, h3, h4, h5, h6 {
     height: 120vh;
   }
 }
+/*--------------------------------------------------------------
+# waktu sholat
+--------------------------------------------------------------*/
+.waktusholat .table{
+  margin-bottom: 0;
+  text-align: center;
+  color: #0a8819;
+  
+}
+.waktusholat .table td{
+  color: black;
+}
 
 /*--------------------------------------------------------------
 # Sections General
@@ -590,9 +602,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Featured Services
+# Featured kegiatan
 --------------------------------------------------------------*/
-.featured-services .icon-box {
+.featured-kegiatan .icon-box {
   padding: 30px;
   position: relative;
   overflow: hidden;
@@ -602,7 +614,7 @@ section {
   border-radius: 8px;
   z-index: 1;
 }
-.featured-services .icon-box::before {
+.featured-kegiatan .icon-box::before {
   content: "";
   position: absolute;
   background: #cbe0fb;
@@ -613,60 +625,60 @@ section {
   transition: all 0.3s;
   z-index: -1;
 }
-.featured-services .icon-box:hover::before {
+.featured-kegiatan .icon-box:hover::before {
   background: #0a8819;
   top: 0;
   border-radius: 0px;
 }
-.featured-services .icon {
+.featured-kegiatan .icon {
   margin-bottom: 15px;
 }
-.featured-services .icon i {
+.featured-kegiatan .icon i {
   font-size: 48px;
   line-height: 1;
   color: #0a8819;
   transition: all 0.3s ease-in-out;
 }
-.featured-services .title {
+.featured-kegiatan .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
-.featured-services .title a {
+.featured-kegiatan .title a {
   color: #111;
 }
-.featured-services .description {
+.featured-kegiatan .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
-.featured-services .icon-box:hover .title a, .featured-services .icon-box:hover .description {
+.featured-kegiatan .icon-box:hover .title a, .featured-kegiatan .icon-box:hover .description {
   color: #fff;
 }
-.featured-services .icon-box:hover .icon i {
+.featured-kegiatan .icon-box:hover .icon i {
   color: #fff;
 }
 
 /*--------------------------------------------------------------
-# About
+# Tentang
 --------------------------------------------------------------*/
-.about .content h3 {
+.tentang .content h3 {
   font-weight: 600;
   font-size: 26px;
 }
-.about .content ul {
+.tentang .content ul {
   list-style: none;
   padding: 0;
 }
-.about .content ul li {
+.tentang .content ul li {
   display: flex;
   align-items: flex-start;
   margin-bottom: 35px;
 }
-.about .content ul li:first-child {
+.tentang .content ul li:first-child {
   margin-top: 35px;
 }
-.about .content ul i {
+.tentang .content ul i {
   background: #fff;
   box-shadow: 0px 6px 15px rgba(16, 110, 234, 0.12);
   font-size: 24px;
@@ -675,14 +687,14 @@ section {
   color: #0a8819;
   border-radius: 50px;
 }
-.about .content ul h5 {
+.tentang .content ul h5 {
   font-size: 18px;
   color: #555555;
 }
-.about .content ul p {
+.tentang .content ul p {
   font-size: 15px;
 }
-.about .content p:last-child {
+.tentang .content p:last-child {
   margin-bottom: 0;
 }
 
@@ -785,16 +797,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# kegiatan
 --------------------------------------------------------------*/
-.services .icon-box {
+.kegiatan .icon-box {
   text-align: center;
   border: 1px solid #e2eefd;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
   background: #fff;
 }
-.services .icon-box .icon {
+.kegiatan .icon-box .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -807,47 +819,47 @@ section {
   margin-bottom: 20px;
   transition: ease-in-out 0.3s;
 }
-.services .icon-box .icon i {
+.kegiatan .icon-box .icon i {
   color: #3b8af2;
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
-.services .icon-box h4 {
+.kegiatan .icon-box h4 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
-.services .icon-box h4 a {
+.kegiatan .icon-box h4 a {
   color: #222222;
   transition: ease-in-out 0.3s;
 }
-.services .icon-box p {
+.kegiatan .icon-box p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
-.services .icon-box:hover {
+.kegiatan .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 25px 0 rgba(16, 110, 234, 0.1);
 }
-.services .icon-box:hover h4 a, .services .icon-box:hover .icon i {
+.kegiatan .icon-box:hover h4 a, .kegiatan .icon-box:hover .icon i {
   color: #0a8819;
 }
-.services .icon-box:hover .icon {
+.kegiatan .icon-box:hover .icon {
   border-color: #0a8819;
 }
 
 /*--------------------------------------------------------------
-# Testimonials
+# quotes
 --------------------------------------------------------------*/
-.testimonials {
+.quotes {
   padding: 100px 0;
   background: url("../img/haditsbackground.png") no-repeat;
   background-position: center center;
   background-size: cover;
   position: relative;
 }
-.testimonials::before {
+.quotes::before {
   content: "";
   position: absolute;
   left: 0;
@@ -856,76 +868,76 @@ section {
   bottom: 0;
   background: rgba(0, 0, 0, 0.7);
 }
-.testimonials .section-header {
+.quotes .section-header {
   margin-bottom: 40px;
 }
-.testimonials .testimonials-carousel, .testimonials .testimonials-slider {
+.quotes .quotes-carousel, .quotes .quotes-slider {
   overflow: hidden;
 }
-.testimonials .testimonial-item {
+.quotes .quote-item {
   text-align: center;
   color: #fff;
 }
-.testimonials .testimonial-item .testimonial-img {
+.quotes .quote-item .quote-img {
   width: 100px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
-.testimonials .testimonial-item h3 {
+.quotes .quote-item h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
   color: #fff;
 }
-.testimonials .testimonial-item h4 {
+.quotes .quote-item h4 {
   font-size: 14px;
   color: #ddd;
   margin: 0 0 15px 0;
 }
-.testimonials .testimonial-item .quote-icon-left, .testimonials .testimonial-item .quote-icon-right {
+.quotes .quote-item .quote-icon-left, .quotes .quote-item .quote-icon-right {
   color: rgba(255, 255, 255, 0.4);
   font-size: 26px;
 }
-.testimonials .testimonial-item .quote-icon-left {
+.quotes .quote-item .quote-icon-left {
   display: inline-block;
   left: -5px;
   position: relative;
 }
-.testimonials .testimonial-item .quote-icon-right {
+.quotes .quote-item .quote-icon-right {
   display: inline-block;
   right: -5px;
   position: relative;
   top: 10px;
 }
-.testimonials .testimonial-item p {
+.quotes .quote-item p {
   font-style: italic;
   margin: 0 auto 15px auto;
   color: #eee;
 }
-.testimonials .swiper-pagination {
+.quotes .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet {
+.quotes .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: rgba(255, 255, 255, 0.5);
   opacity: 1;
 }
-.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+.quotes .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #0a8819;
 }
 @media (min-width: 992px) {
-  .testimonials .testimonial-item p {
+  .quotes .quote-item p {
     width: 80%;
   }
 }
 
 /*--------------------------------------------------------------
-# kegiatan
+# galeri
 --------------------------------------------------------------*/
-.kegiatan #kegiatan-flters {
+.galeri #galeri-flters {
   padding: 0;
   margin: 0 auto 15px auto;
   list-style: none;
@@ -933,7 +945,7 @@ section {
   border-radius: 50px;
   padding: 2px 15px;
 }
-.kegiatan #kegiatan-flters li {
+.galeri #galeri-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;
@@ -945,16 +957,16 @@ section {
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
-.kegiatan #kegiatan-flters li:hover, .kegiatan #kegiatan-flters li.filter-active {
+.galeri #galeri-flters li:hover, .galeri #galeri-flters li.filter-active {
   color: #0a8819;
 }
-.kegiatan #kegiatan-flters li:last-child {
+.galeri #galeri-flters li:last-child {
   margin-right: 0;
 }
-.kegiatan .kegiatan-item {
+.galeri .galeri-item {
   margin-bottom: 30px;
 }
-.kegiatan .kegiatan-item .kegiatan-info {
+.galeri .galeri-item .galeri-info {
   opacity: 0;
   position: absolute;
   left: 30px;
@@ -965,31 +977,31 @@ section {
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
 }
-.kegiatan .kegiatan-item .kegiatan-info h4 {
+.galeri .galeri-item .galeri-info h4 {
   font-size: 18px;
   color: #fff;
   font-weight: 600;
   color: #222222;
 }
-.kegiatan .kegiatan-item .kegiatan-info p {
+.galeri .galeri-item .galeri-info p {
   color: #555555;
   font-size: 14px;
   margin-bottom: 0;
 }
-.kegiatan .kegiatan-item .kegiatan-info .preview-link, .kegiatan .kegiatan-item .kegiatan-info .details-link {
+.galeri .galeri-item .galeri-info .preview-link, .galeri .galeri-item .galeri-info .details-link {
   position: absolute;
   right: 40px;
   font-size: 24px;
   top: calc(50% - 18px);
   color: #3c3c3c;
 }
-.kegiatan .kegiatan-item .kegiatan-info .preview-link:hover, .kegiatan .kegiatan-item .kegiatan-info .details-link:hover {
+.galeri .galeri-item .galeri-info .preview-link:hover, .galeri .galeri-item .galeri-info .details-link:hover {
   color: #0a8819;
 }
-.kegiatan .kegiatan-item .kegiatan-info .details-link {
+.galeri .galeri-item .galeri-info .details-link {
   right: 10px;
 }
-.kegiatan .kegiatan-item .kegiatan-links {
+.galeri .galeri-item .galeri-links {
   opacity: 0;
   left: 0;
   right: 0;
@@ -998,72 +1010,72 @@ section {
   position: absolute;
   transition: all ease-in-out 0.3s;
 }
-.kegiatan .kegiatan-item .kegiatan-links a {
+.galeri .galeri-item .galeri-links a {
   color: #fff;
   margin: 0 2px;
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
 }
-.kegiatan .kegiatan-item .kegiatan-links a:hover {
+.galeri .galeri-item .galeri-links a:hover {
   color: #6ba7f5;
 }
-.kegiatan .kegiatan-item:hover .kegiatan-info {
+.galeri .galeri-item:hover .galeri-info {
   opacity: 1;
   bottom: 20px;
 }
 
 /*--------------------------------------------------------------
-# kegiatan Details
+# galeri Details
 --------------------------------------------------------------*/
-.kegiatan-details {
+.galeri-details {
   padding-top: 40px;
 }
-.kegiatan-details .kegiatan-details-slider img {
+.galeri-details .galeri-details-slider img {
   width: 100%;
 }
-.kegiatan-details .kegiatan-details-slider .swiper-pagination {
+.galeri-details .galeri-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
-.kegiatan-details .kegiatan-details-slider .swiper-pagination .swiper-pagination-bullet {
+.galeri-details .galeri-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #0a8819;
 }
-.kegiatan-details .kegiatan-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.galeri-details .galeri-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #0a8819;
 }
-.kegiatan-details .kegiatan-info {
+.galeri-details .galeri-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(34, 34, 34, 0.08);
 }
-.kegiatan-details .kegiatan-info h3 {
+.galeri-details .galeri-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
-.kegiatan-details .kegiatan-info ul {
+.galeri-details .galeri-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
-.kegiatan-details .kegiatan-info ul li + li {
+.galeri-details .galeri-info ul li + li {
   margin-top: 10px;
 }
-.kegiatan-details .kegiatan-description {
+.galeri-details .galeri-description {
   padding-top: 30px;
 }
-.kegiatan-details .kegiatan-description h2 {
+.galeri-details .galeri-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-.kegiatan-details .kegiatan-description p {
+.galeri-details .galeri-description p {
   padding: 0;
 }
 
