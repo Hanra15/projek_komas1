@@ -6,7 +6,7 @@
     {
         public function index()
         {
-            $this->load->view('dashboard');
+            echo view('backend/index');
             
         }
     }
