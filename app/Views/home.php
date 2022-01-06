@@ -42,7 +42,7 @@
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a> -->
-        <a href="#" class="whatsapp bi bi-phone d-flex align-items-center ms-4"><span> Contact Person : +62 8123 4567 8910</span></a>
+        <a href="https://wa.me/081283215772" target="_blank" class="whatsapp bi bi-phone d-flex align-items-center ms-4"><span> Contact Person : +62 8123 4567 8910</span></a>
       </div>
     </div>
   </section>
@@ -53,7 +53,7 @@
 
       <!-- <a href="index.html" class="logo"><img src="assets/img/favicon.png" alt=""></a> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <h1 class="logo"><a href="index.html">Masjid Al-Huda Cibinong<span>.</span></a></h1>
+      <h1 class="logo"><a href="#">Masjid Al-Huda Cibinong<span>.</span></a></h1>
       
       
 
@@ -69,9 +69,9 @@
               <li><a href="#kegiatan">Galeri Kegiatan</a></li>
               <li class="dropdown"><a href="#"><span>Peringatan Hari Besar Islam</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#idulfitri">Hari Raya Idul Fitri</a></li>
+                  <li><a href="#pengajian">PengajianIdul Fitri</a></li>
                   <li><a href="#iduladha">Hari Raya Idul Adha</a></li>
-                  <li><a href="#thi">Tahun Baru Islam</a></li>
+                  <li><a href="#phbi">Hari Besar Islam</a></li>
                   <li><a href="#maulid">Maulid Nabi Muhammad SAW</a></li>
                   <li><a href="#isra">Isra Mi'raj</a></li>
                 </ul>
@@ -149,11 +149,10 @@
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
             <h3>Tentang Masjid Al-Huda</h3>
             <p class="fst-italic">
-              Masjid Al-Huda berlokasi di Jalan Raya JKT Bogor No.18, tepatnya dekat pusat perbelanjaan Cibinong City Mall. <br>
-              Masjid ini dibangun pada tahun xxxx
+              Masjid Jami' Al-Huda berlokasi di Jalan Raya JKT Bogor No.18, tepatnya dekat pusat perbelanjaan Cibinong City Mall. <br>
             </p>
             <p>
-              Jamaah masjid Jami' Al-Huda Cibinong mayoritas adalah warga sekitar jalan raya bogor.
+              Masjid Jami' Al-Huda Cibinong awal mulanya berupa mushola sekitar tahun 70an, namun pada tahun 1985 memulai pembangunan masjid yang didirikan oleh Pak Husen, sampai saat ini masjid masih kokoh dan ramai oleh jama'ah sekitar.
             </p>
           </div>
         </div>
@@ -172,39 +171,24 @@
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+
+        <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-book-open"></i></div>
-              <h4><a href="">Pengajian Rutin</a></h4>
-              <p>Mengadakan pengajian rutin untuk ibu-ibu setempat</p>
+              <div class="icon"><i class="bx bx-book"></i></div>
+              <h4><a href="">Pengajian rutin mingguan</a></h4>
+              <p>Melaksakan pengajian Rutin tiap minggu untuk jama'ah sekitar</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-moon"></i></div>
-              <h4><a href="">Perayaan Hari Besar Islam</a></h4>
-              <p>Turut merayakan hari besar islam seperti idul fitri, idul adha, dll</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-calendar-week"></i></div>
-              <h4><a href="">Sholat Jumat Berjama'ah</a></h4>
-              <p>Melaksanakan Sholat Jumat Berjama'ah untuk jamaah sekitar</p>
+              <h4><a href="">Sholat Jum'at Berjama'ah</a></h4>
+              <p>Melaksanakan Sholat Jum'at Berjama'ah untuk warga sekitar</p>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
-            <div class="icon-box">
-              <div class="icon"><i class="bx bx-donate-heart"></i></div>
-              <h4><a href="">Badan Amil Zakat</a></h4>
-              <p>Menjadi penyalur zakat untuk warga sekitar</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-book-open"></i></div>
               <h4><a href="">Pengajian Yasinan</a></h4>
@@ -212,13 +196,15 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-arch"></i></div>
-              <h4><a href=""></a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <div class="icon"><i class="bx bx-moon"></i></div>
+              <h4><a href="">Perayaan Hari Besar Islam</a></h4>
+              <p>Turut merayakan hari besar islam seperti idul fitri, idul adha, dll</p>
             </div>
           </div>
+
+          
 
         </div>
 
@@ -327,59 +313,36 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="galeri-flters">
               <li data-filter="*" class="filter-active">Semua</li>
-              <li data-filter=".filter-kegiatan1" id="idulfitri">Idul Fitri</li>
-              <li data-filter=".filter-kegiatan2" id="iduladha">Idul Adha</li>
-              <li data-filter=".filter-kegiatan3" id="thi">Tahun Baru Islam</li>
-              <li data-filter=".filter-kegiatan4" id="maulid">Maulid Nabi Muhammad SAW</li>
-              <li data-filter=".filter-kegiatan5" id="isra">Isra Mi'raj</li>
+              <li data-filter=".filter-kegiatan1" id="pengajian">Pengajian</li>
+              <li data-filter=".filter-kegiatan2" id="tempat">Masjid</li>
+              <li data-filter=".filter-kegiatan3" id="phbi">Hari Besar Islam</li>
             </ul>
           </div>
         </div>
 
         <div class="row galeri-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 galeri-item filter-kegiatan1">
-            <img src="assets/img/galeri/kegiatan1.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 galeri-item filter-kegiatan2">
+            <img src="assets/img/galeri/masjid1.jpg" class="img-fluid" alt="">
             <div class="galeri-info">
-              <h4>Kegiatan 1</h4>
-              <p>kegiatan 1</p>
-              <a href="assets/img/galeri/kegiatan1.jpg" data-gallery="galeriGallery" class="galeri-lightbox preview-link" title="kegiatan1"><i class="bx bx-search"></i></a>
+              <h4>Masjid</h4>
+              <a href="assets/img/galeri/masjid1.jpg" data-gallery="galeriGallery" class="galeri-lightbox preview-link" title=""><i class="bx bx-search"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 galeri-item filter-kegiatan2">
-            <img src="assets/img/galeri/kegiatan2.jpg" class="img-fluid" alt="">
+            <img src="assets/img/galeri/masjid3.jpg" class="img-fluid" alt="">
             <div class="galeri-info">
-              <h4>Kegiatan 2</h4>
-              <p>kegiatan 2</p>
-              <a href="assets/img/galeri/kegiatan2.jpg" data-gallery="galeriGallery" class="galeri-lightbox preview-link" title="kegiatan2"><i class="bx bx-search"></i></a>
+              <h4>Tempat Wudhu</h4>
+              <a href="assets/img/galeri/masjid3.jpg" data-gallery="galeriGallery" class="galeri-lightbox preview-link" title=""><i class="bx bx-search"></i></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 galeri-item filter-kegiatan3">
-            <img src="assets/img/galeri/kegiatan3.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 galeri-item filter-kegiatan2">
+            <img src="assets/img/galeri/masjid5.jpg" class="img-fluid" alt="">
             <div class="galeri-info">
-              <h4>Kegiatan 3</h4>
-              <p>kegiatan 3</p>
-              <a href="assets/img/galeri/kegiatan3/jpg" data-gallery="galeriGallery" class="galeri-lightbox preview-link" title="kegiatan3"><i class="bx bx-search"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 galeri-item filter-kegiatan4">
-            <img src="assets/img/galeri/kegiatan4.jpg" class="img-fluid" alt="">
-            <div class="galeri-info">
-              <h4>Kegiatan 4</h4>
-              <p>kegiatan 4</p>
-              <a href="assets/img/galeri/kegiatan4.jpg" data-gallery="galeriGallery" class="galeri-lightbox preview-link" title="kegiatan4"><i class="bx bx-search"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 galeri-item filter-kegiatan5">
-            <img src="assets/img/galeri/kegiatan5.jpg" class="img-fluid" alt="">
-            <div class="galeri-info">
-              <h4>Kegiatan 5</h4>
-              <p>kegiatan 5</p>
-              <a href="assets/img/galeri/kegiatan5.jpg" data-gallery="galeriGallery" class="galeri-lightbox preview-link" title="kegiatan5"><i class="bx bx-search"></i></a>
+              <h4>Mading</h4>
+              <a href="assets/img/galeri/masjid5.jpg" data-gallery="galeriGallery" class="galeri-lightbox preview-link" title=""><i class="bx bx-search"></i></a>
             </div>
           </div>
 
@@ -460,10 +423,10 @@
             <h4>Tautan</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Beranda</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Tentang kami</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Keropak</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Kegiatan Masjid</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Kontak</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#tentang">Tentang kami</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#kegiatan">Kegiatan</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#galeri">Galeri</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kontak</a></li>
             </ul>
           </div>
 

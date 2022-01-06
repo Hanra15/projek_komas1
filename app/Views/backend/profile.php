@@ -20,7 +20,7 @@
       <div class="card">
         <div class="card-body profile-card pt-4 d-flex flex-column align-items-center">
 
-          <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+          <img src="assets/img/profile.jpg" alt="Profile" class="rounded-circle">
           <h2> Masjid Al-Huda</h2>
           <h3>Admin</h3>
 
