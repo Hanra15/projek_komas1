@@ -121,8 +121,8 @@
         
       </div>
       <h1>Selamat <span>Datang</span></h1>
-      <h2>Dari Abu Hurairah Radhiyallahu'anhu, ia berkata, “Rasûlullâh Shallallahu 'alaihi wa sallam bersabda:
-        Yang artinya : Sholat seorang laki-laki dengan berjama'ah akan dilipat-gandakan 25 (dua puluh lima) kali lipat daripada sholat yang dilakukan di rumah dan di pasarnya"</h2>
+      <h2>Dari Abu Hurairah Radhiyallahu'anhu, ia berkata, <span>Rasûlullâh Shallallahu 'alaihi wa sallam</span>  bersabda:
+       <br> Yang artinya : <br><br> "Sholat seorang laki-laki dengan berjama'ah akan dilipat-gandakan 25 (dua puluh lima) kali lipat daripada sholat yang dilakukan di rumah dan di pasarnya"</h2>
       <div class="d-flex">
         <a href="#tentang" class="btn-get-started scrollto">Info Masjid</a>
         <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
@@ -172,7 +172,7 @@
 
         <div class="row">
 
-        <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+        <div class="col-lg-3 col-md-3 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-book"></i></div>
               <h4><a href="">Pengajian rutin mingguan</a></h4>
@@ -180,7 +180,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-3 col-md-3 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-calendar-week"></i></div>
               <h4><a href="">Sholat Jum'at Berjama'ah</a></h4>
@@ -188,7 +188,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-3 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-book-open"></i></div>
               <h4><a href="">Pengajian Yasinan</a></h4>
@@ -196,7 +196,7 @@
             </div>
           </div>
 
-          <div class="col-lg-6 col-md-6 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-3 col-md-3 align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-moon"></i></div>
               <h4><a href="">Perayaan Hari Besar Islam</a></h4>
