@@ -42,7 +42,7 @@
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a> -->
-        <a href="https://wa.me/081283215772" target="_blank" class="whatsapp bi bi-phone d-flex align-items-center ms-4"><span> Contact Person : +62 8123 4567 8910</span></a>
+        <a href="https://wa.me/+62 812 8321 5772" target="_blank" class="whatsapp bi bi-phone d-flex align-items-center ms-4"><span> Contact Person : +62 8123 4567 8910</span></a>
       </div>
     </div>
   </section>
@@ -63,22 +63,6 @@
           <li><a class="nav-link scrollto" href="#tentang">Tentang</a></li>
           <li><a class="nav-link scrollto" href="#kegiatan">Kegiatan</a></li>
           <li><a class="nav-link scrollto " href="#galeri">Galeri</a></li>
-          <!-- <li><a class="nav-link scrollto" href="#team">Team</a></li> -->
-          <!-- <li class="dropdown"><a href="#kegiatan"><span>Kegiatan Masjid</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#kegiatan">Galeri Kegiatan</a></li>
-              <li class="dropdown"><a href="#"><span>Peringatan Hari Besar Islam</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#pengajian">PengajianIdul Fitri</a></li>
-                  <li><a href="#iduladha">Hari Raya Idul Adha</a></li>
-                  <li><a href="#phbi">Hari Besar Islam</a></li>
-                  <li><a href="#maulid">Maulid Nabi Muhammad SAW</a></li>
-                  <li><a href="#isra">Isra Mi'raj</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Jadwal Imam Harian</a></li>
-            </ul>
-          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Kontak Kami</a></li>
           
         </ul>
@@ -125,7 +109,6 @@
        <br> Yang artinya : <br><br> "Sholat seorang laki-laki dengan berjama'ah akan dilipat-gandakan 25 (dua puluh lima) kali lipat daripada sholat yang dilakukan di rumah dan di pasarnya"</h2>
       <div class="d-flex">
         <a href="#tentang" class="btn-get-started scrollto">Info Masjid</a>
-        <!-- <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> -->
       </div>
     </div>
   </section><!-- End Hero -->
@@ -138,8 +121,7 @@
 
         <div class="section-title">
           <h2>Tentang</h2>
-          <h3>Masjid Jami' <span>Al-huda</span></h3>
-          <!-- <p>Jl. Raya Jkt Bogor No.18, Cibinong, Bogor, Jawa Barat 16911</p> -->
+          <h3>Masjid Jami' <span>Al-huda Cibinong</span></h3>
         </div>
 
         <div class="row">
@@ -167,7 +149,6 @@
         <div class="section-title">
           <h2>Kegiatan</h2>
           <h3>Kegiatan <span>Masjid Al-Huda Cibinong</span></h3>
-          <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
         </div>
 
         <div class="row">
@@ -203,8 +184,6 @@
               <p>Turut merayakan hari besar islam seperti idul fitri, idul adha, dll</p>
             </div>
           </div>
-
-          
 
         </div>
 
@@ -305,8 +284,7 @@
 
         <div class="section-title">
           <h2>Galeri</h2>
-          <h3>Galeri <span> Kegiatan Masjid</span></h3>
-          <!-- <p>Kegiatan Masjid Al-huda Cibinong meliputi kegiatan peringatan hari besar islam, Sholat Jum'at berjama'ah, dan pelaksanaan sholat 5 waktu setiap hari nya.</p> -->
+          <h3>Galeri <span> Masjid Jami'Al-Huda</span></h3>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -358,7 +336,6 @@
         <div class="section-title">
           <h2>Kontak</h2>
           <h3><span>Kontak Kami</span></h3>
-          <!-- <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p> -->
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -391,9 +368,8 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
 
           <div class="col-lg-12 ">
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5606.345127463777!2d106.8437059116239!3d-6.485590395711811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c1befc1bf7f3%3A0xc0f4823513f71fba!2sMasjid%20Jami%20Al-Huda!5e0!3m2!1sen!2sid!4v1638428781250!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.0953719278223!2d106.82597631477061!3d-6.509611195291285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c17a225c0bb9%3A0xe19e24e5cc26f963!2sPerumahan%20Permata%20Bintang%20Cibinong!5e0!3m2!1sen!2sid!4v1642163389018!5m2!1sen!2sid" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           </div>
-
         </div>
 
       </div>
